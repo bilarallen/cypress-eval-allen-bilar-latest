@@ -28,7 +28,12 @@ QA automated testing evaluation project using Cypress.io
 # More Scenarios to Automate
 
 ## Book Store Application
-
+*Scenarios Covered*
+- Searching of books
+- Validate searched books
+- Login existing book user
+- Add book to user
+- Delete all books of user 
 
 - Open the browser
 - Visit https://demoqa.com/books
