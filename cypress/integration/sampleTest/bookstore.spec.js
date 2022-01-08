@@ -70,13 +70,13 @@ describe('Book Store Test Suite', function() {
     booksObjects.lblLoginPage().should('be.visible')
   })
 
-  it.only('This will delete all books of user', function() {
+  it('This will delete all books of user', function() {
     cy.visit(Form_URL)
     booksObjects.btnBookLogin().click()
     booksObjects.txtUserName().type('toolsqa.allen')
     booksObjects.txtPassword().type('P@ssw0rd')
     booksObjects.btnBookLogin().click()
-    cy.wait(5000)
+    cy.wait(3000)
     cy.visit('/profile/')
     booksObjects.lbluser().should('contain', 'toolsqa.allen')
     booksObjects.btnDeleteAllBook().scrollIntoView().click()
