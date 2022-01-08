@@ -1,0 +1,26 @@
+{
+  "basicsTextBox":{
+    "name": "Allen",
+    "email": "myemail@gmail.com",
+    "currentAddress": "Metro Manila",
+    "permanentAddress": "Philippines"
+  },
+  "basicsWebTable":{
+    "firstName": "Allen",
+    "lastName": "Bilar",
+    "email": "myemail@gmail.com",
+    "age": "24",
+    "salary": "95000",
+    "department": "QA"
+  },
+
+  "booksData":{
+    "ISBN": "9781449325862",
+    "title": "Git Pocket Guide",
+    "subtitle": "A Working Introduction",
+    "author": "Richard E. Silverman",
+    "publisher": "O'Reilly Media",
+    "totalPages": "234",
+    "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp"
+  }
+}
